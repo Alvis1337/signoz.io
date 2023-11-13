@@ -91,7 +91,7 @@ Our application code consists of a `tracing.js` file. The `tracing.js` file cont
 To instrument the React app with OpenTelemetry, we need to install the OpenTelemetry dependencies.
 
 ```jsx
-npm i @opentelemetry/api @opentelemetry/auto-instrumentations-web, @opentelemetry/context-zone, @opentelemetry/exporter-trace-otlp-http @opentelemetry/instrumentation-fetch @opentelemetry/instrumentation-xml-http-request @opentelemetry/resources @opentelemetry/sdk-trace-web
+npm i @opentelemetry/api @opentelemetry/auto-instrumentations-web @opentelemetry/context-zone @opentelemetry/exporter-trace-otlp-http @opentelemetry/instrumentation-fetch @opentelemetry/instrumentation-xml-http-request @opentelemetry/resources @opentelemetry/sdk-trace-web
 ```
 
 Since we already set up the tracing.js file in the sample react app, you can just change the service name.
